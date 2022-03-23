@@ -1,0 +1,24 @@
+{
+    "batch": {
+        "sampling": {
+            "mode": "front_aligned_segs_from_docs",
+            "max_window_size": 512,
+            "min_window_size": 64,
+            "min_stride": 10,
+            "rand_extra_stride": 80
+        },
+        "shuf_buf_size": 100000,
+        "capacity": 32768
+    },
+    "random_seed": 0,
+    "warm_up_steps": 4000,
+    "label_smoothing": 0,
+    "max_step": 1000000,
+    "max_epoch": 100,
+    "summary_interval": 500,
+    "early_stopping_patience": 2,
+    "data": {
+        "train": [],
+        "dev": ""
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "spm":{
+        "vocab_size": 16000,
+        "pad_id": 0,
+        "bos_id": 1,
+        "eos_id": 2,
+        "unk_id": 3,
+        "custom_control_symbols": [
+            "<conc>",
+            "<sep>",
+            "<sod>",
+            "<eod>",
+            "<nil>"
+        ],
+        "user_defined_symbols":[
+            "<SOS>",
+            "<EOS>",
+            "<CONC>",
+            "<SEP>",
+            "<SOD>",
+            "<EOD>",
+            "<NIL>"
+        ],
+        "src_prefix": "en_sp16k",
+        "trg_prefix": "ru_sp16k",
+        "src_origin": "../../../en-fr/data/OpenSubs18/en_sp16k",
+        "trg_char_coverage": 1.0
+    }
+}

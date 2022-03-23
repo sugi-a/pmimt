@@ -1,0 +1,6 @@
+271c271
+<                 dec_tm, dec_lm, dec_clm, y, T1, T2, a, L1, topk=K * 4)
+---
+>                 dec_tm, dec_lm, dec_clm, y, T1, T2, a, L1, topk=8)
+853d852
+< 

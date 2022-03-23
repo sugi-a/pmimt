@@ -1,0 +1,9 @@
+{
+    "size": 16000,
+    "PAD_ID": 0,
+    "SOS_ID": 1,
+    "EOS_ID": 2,
+    "UNK_ID": 3,
+    "source_dict": "../ru_sp16k.vocab",
+    "target_dict": "../ru_sp16k.vocab"
+}

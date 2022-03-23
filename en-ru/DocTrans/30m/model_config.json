@@ -1,0 +1,14 @@
+{
+    "d_model": 512,
+    "n_heads": 8,
+    "maxlen": 512,
+    "ff_size": 2048,
+    "dropout_rate": 0.1,
+    "n_enc_blocks": 6,
+    "n_dec_blocks": 6,
+    "n_ctx_blocks": 1,
+    "use_pos_enc": true,
+    "use_pos_emb": false,
+    "share_enc_dec_embedding": false,
+    "vocab_size": 16000
+}
